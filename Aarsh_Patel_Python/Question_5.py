@@ -1,4 +1,3 @@
-
 word = input("Enter word: ")
 backwords = ""
 i = len(word)-1
@@ -14,8 +13,11 @@ for i in range(len(word)):
         answer = True
     else:
         answer = False
+        print("False")
+        break
 
 if not(answer):
     print("Not palindrome")
 else:
     print("Is palindrome")
+
